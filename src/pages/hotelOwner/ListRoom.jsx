@@ -12,7 +12,7 @@ const ListRoom = () => {
   }
 
   return (
-    <div className="px-4 py-6">
+    <div className="px-4 py-6 max-w-6xl mx-auto">
       <Title
         align="left"
         font="outfit"
@@ -22,21 +22,21 @@ const ListRoom = () => {
 
       <p className="text-gray-700 mt-8 font-medium">All Rooms</p>
 
-      <div className="w-full max-w-4xl rounded-xl overflow-hidden shadow-md border border-gray-200 bg-white/40 backdrop-blur-lg max-h-96 overflow-y-auto mt-4">
+      <div className="overflow-x-auto mt-4 border border-gray-200 rounded-xl shadow-md bg-white">
         <table className="w-full text-sm">
-          <thead className="bg-gray-100 text-gray-800">
+          <thead className="bg-gray-50 text-gray-800">
             <tr>
               <th className="py-3 px-4 text-left">Name</th>
-              <th className="py-3 px-4 text-left max-sm:hidden">Facility</th>
+              <th className="py-3 px-4 text-left hidden sm:table-cell">Facility</th>
               <th className="py-3 px-4 text-left">Price/night</th>
               <th className="py-3 px-4 text-center">Actions</th>
             </tr>
           </thead>
-          <tbody className="bg-white/50">
+          <tbody className="bg-white text-gray-700">
             {rooms.map((item, index) => (
-              <tr key={index} className="border-t border-gray-300 text-gray-700">
+              <tr key={index} className="border-t">
                 <td className="py-3 px-4">{item.roomType}</td>
-                <td className="py-3 px-4 max-sm:hidden">
+                <td className="py-3 px-4 hidden sm:table-cell">
                   {typeof item.amenities === 'object'
                     ? Object.entries(item.amenities)
                         .filter(([_, value]) => value)
