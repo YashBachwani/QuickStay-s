@@ -21,6 +21,14 @@ const ExclusiveOffers = () => {
         </button>
       </div>
 
+
+      {/* /**
+      * Exclusive Offers Component
+      * Project: QuickStay
+      * Developed & Maintained by: Yash Bachwani
+      * © 2025 All rights reserved
+      */}
+
       {/* display cards  */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 w-full'>
         {exclusiveOffers.map((item) => (

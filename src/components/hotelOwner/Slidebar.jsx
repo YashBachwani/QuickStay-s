@@ -21,6 +21,13 @@ const Slidebar = ({ closeSidebar = () => {} }) => {
       path: '/owner/list-room',
       icon: assets.listIcon,
     },
+    /**
+   * SlideBar Component
+   * Project: QuickStay
+   * Developed & Maintained by: Yash Bachwani
+   * © 2025 All rights reserved
+   */
+
   ]
 
   return (

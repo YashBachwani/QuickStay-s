@@ -3,6 +3,14 @@ import { useParams } from 'react-router-dom'
 import { assets, facilityIcons, roomCommonData, roomsDummyData } from '../assets/assets'
 import StarRating from '../components/StarRating'
 
+{/**
+  * RoomDetails.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
+
 const RoomDetails = () => {
   const { id } = useParams()
   const [room, setRoom] = useState(null)
@@ -22,8 +30,16 @@ const RoomDetails = () => {
           <h1 className="text-3xl md:text-4xl font-playfair">
             {room.hotel.name} <span className="font-inter text-sm">({room.roomType})</span>
           </h1>
-          <p className="text-xs font-inter py-1.5 px-3 text-white bg-orange-500 rounded-full shadow-md">20% Off</p>
+          <p className="text-xs font-inter py-1.5 px-3 text-white bg-orange-500 rounded-full shadow-md">20% Off</p>{/** * RoomDetails.jsx  * Project: QuickStay  * Developed & Maintained by: Yash Bachwani  * © 2025 All rights reserved */}
         </div>
+
+{/**
+  * RoomDetails.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
 
         {/* Rating */}
         <div className="flex items-center gap-2 mt-2 text-sm text-gray-600">
@@ -70,7 +86,7 @@ const RoomDetails = () => {
             <h2 className="text-2xl md:text-3xl font-semibold">Experience Luxury Like Never Before</h2>
             <div className="flex flex-wrap gap-3 mt-4">
               {room.amenities.map((item, index) => (
-                <div key={index} className="flex items-center gap-2 bg-white/70 backdrop-blur-md px-3 py-2 rounded-lg shadow-sm">
+                <div key={index} className="flex items-center gap-2 bg-white/70 backdrop-blur-md px-3 py-2 rounded-lg shadow-sm">{/** * RoomDetails.jsx  * Project: QuickStay  * Developed & Maintained by: Yash Bachwani  * © 2025 All rights reserved */}
                   <img src={facilityIcons[item]} alt={item} className="w-5 h-5" />
                   <span className="text-xs text-gray-700">{item}</span>
                 </div>
@@ -85,7 +101,7 @@ const RoomDetails = () => {
           <div className="flex flex-wrap gap-6 text-gray-700 w-full md:w-auto">
             <div>
               <label htmlFor="checkInDate" className="block text-sm font-semibold">Check-In</label>
-              <input type="date" id="checkInDate" className="mt-1 px-4 py-2 border border-gray-300 rounded-lg w-full shadow-sm" required />
+              <input type="date" id="checkInDate" className="mt-1 px-4 py-2 border border-gray-300 rounded-lg w-full shadow-sm" required />{/** * RoomDetails.jsx  * Project: QuickStay  * Developed & Maintained by: Yash Bachwani  * © 2025 All rights reserved */}
             </div>
             <div>
               <label htmlFor="checkOutDate" className="block text-sm font-semibold">Check-Out</label>
@@ -93,10 +109,11 @@ const RoomDetails = () => {
             </div>
             <div>
               <label htmlFor="guests" className="block text-sm font-semibold">Guests</label>
-              <input type="number" id="guests" placeholder="0" className="mt-1 px-4 py-2 border border-gray-300 rounded-lg w-24 shadow-sm" required />
+              <input type="number" id="guests" placeholder="0" className="mt-1 px-4 py-2 border border-gray-300 rounded-lg w-24 shadow-sm" required />{/** * RoomDetails.jsx  * Project: QuickStay  * Developed & Maintained by: Yash Bachwani  * © 2025 All rights reserved */}
             </div>
           </div>
-          <button type="submit" className="mt-6 md:mt-0 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg shadow-md transition-all">
+          <button type="submit" className="mt-6 md:mt-0 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg shadow-md transition-all">{/** * RoomDetails.jsx  * Project: QuickStay  * Developed & Maintained by: Yash Bachwani  * © 2025 All rights reserved */}
+
             Check Availability
           </button>
         </form>
@@ -117,7 +134,7 @@ const RoomDetails = () => {
         {/* Description */}
         <div className="max-w-3xl border-y border-gray-300 my-16 py-10 text-gray-600 text-sm">
           <p>
-            Guests will be allocated on the ground floor according to availability. You get a comfortable two-bedroom apartment with a true city feeling. The price quoted is for two guests. Please mark the correct guest count to get the exact price. Guests will be allocated the ground floor according to availability.
+            Guests will be allocated on the ground floor according to availability. You get a comfortable two-bedroom apartment with a true city feeling. The price quoted is for two guests. Please mark the correct guest count to get the exact price. Guests will be allocated the ground {/** * RoomDetails.jsx  * Project: QuickStay  * Developed & Maintained by: Yash Bachwani  * © 2025 All rights reserved */} floor according to availability.
           </p>
         </div>
 
@@ -133,7 +150,7 @@ const RoomDetails = () => {
               </div>
             </div>
           </div>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-md transition-all w-fit">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-md transition-all w-fit">{/** * RoomDetails.jsx  * Project: QuickStay  * Developed & Maintained by: Yash Bachwani  * © 2025 All rights reserved */}
             Contact Now
           </button>
         </div>

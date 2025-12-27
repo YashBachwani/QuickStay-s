@@ -12,6 +12,13 @@ const Navbar = ({ toggleSidebar }) => {
         <button
           className="block md:hidden text-2xl text-gray-600"
           onClick={toggleSidebar}
+          /**
+         * Hotel Owner Navbar Component
+         * Project: QuickStay
+         * Developed & Maintained by: Yash Bachwani
+         * © 2025 All rights reserved
+         */
+
         >
           <HiMenu />
         </button>

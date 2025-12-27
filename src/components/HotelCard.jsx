@@ -24,6 +24,13 @@ const HotelCard = ({room,index}) => {
                 <button className='px-4 py-2 text-sm font-medium border border-gray-300 rounded hover:bg-gray-50 transition-all cursor-pointer'>Book Now</button>
             </div>
         </div>
+        {/**
+        * Hotel Card Component
+        * Project: QuickStay
+        * Developed & Maintained by: Yash Bachwani
+        * © 2025 All rights reserved
+        */}
+
     </Link>
   )
 }

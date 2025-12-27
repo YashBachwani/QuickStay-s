@@ -42,6 +42,13 @@ const Hero = () => {
                 </div>
                 <input id="checkOut" type="date" className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none" />
             </div>
+            
+            {/* 
+            * Hero Component
+            * Project: QuickStay
+            * Developed & Maintained by: Yash Bachwani
+            * © 2025 All rights reserved
+            */}
 
             <div className='flex md:flex-col max-md:gap-2 max-md:items-center'>
                 <label htmlFor="guests">Guests</label>

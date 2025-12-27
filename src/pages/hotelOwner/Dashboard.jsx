@@ -13,7 +13,12 @@ const Dashboard = () => {
         title="Dashboard"
         subTitle="Monitor your room listings, track bookings and analyze revenue—all in one place."
       />
-
+{/**
+  * Dashboard.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
       {/* Metrics */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
         <div className="bg-white shadow-md rounded-xl p-5 flex items-center gap-4">
@@ -37,6 +42,12 @@ const Dashboard = () => {
       <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
         <table className="w-full text-sm">
           <thead className="bg-gray-50">
+            {/**
+  * Dashboard.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
             <tr>
               <th className="text-left py-3 px-4">User Name</th>
               <th className="text-left py-3 px-4 hidden sm:table-cell">Room Name</th>
@@ -59,6 +70,12 @@ const Dashboard = () => {
                 </td>
               </tr>
             ))}
+            {/**
+  * Dashboard.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
           </tbody>
         </table>
       </div>
@@ -67,3 +84,10 @@ const Dashboard = () => {
 }
 
 export default Dashboard
+
+{/**
+  * Dashboard.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}

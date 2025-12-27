@@ -5,6 +5,13 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import AllRooms from './pages/AllRooms';
 import RoomDetails from './pages/RoomDetails';
+/**
+ * App.jsx
+ * Project: QuickStay
+ * Developed & Maintained by: Yash Bachwani
+ * © 2025 All rights reserved
+ */
+
 import MyBookings from './pages/MyBookings';
 import HotelReg from './components/HotelReg';
 import Layout from './pages/hotelOwner/Layout';
@@ -25,11 +32,24 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/rooms' element={<AllRooms/>}/>
           <Route path='/rooms/:id' element={<RoomDetails/>}/>
+          {/**
+          * App.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */}
+
           <Route path='/my-bookings' element={<MyBookings/>}/>
           <Route path='/owner' element={<Layout/>}>
             <Route index element={<Dashboard/>}/>
             <Route path='add-room' element={<AddRoom/>} />
             <Route path='list-room' element={<ListRoom/>} />
+          {/**
+          * App.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */}
 
           </Route>
         </Routes>
@@ -40,3 +60,10 @@ const App = () => {
 }
 
 export default App
+
+          {/**
+          * App.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */}

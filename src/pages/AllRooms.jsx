@@ -11,6 +11,13 @@ const CheckBox = ({label, selected = false, onChange = () => { }})=>{
     <span className='font-light select-none'>{label}</span>
     </label>
     ) 
+{/**
+  * AllRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
 }
 const RadioButton = ({label, selected = false, onChange = () => { }})=>{
     return (
@@ -30,6 +37,13 @@ const AllRooms = () => {
         "Luxury Room",
         "Family Suite",
     ];
+{/**
+  * AllRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
     const priceRanges = [
         '0 to 500',
         '500 to 1000',
@@ -48,6 +62,13 @@ const AllRooms = () => {
                 <h1 className='font-playfair text-4x1 md:text-[40px]'>Hotel Rooms</h1>
                 <p className='text-sm md:text-base text-gray-500/90 mt-2 max-w-174'>Take advantage of our limited-time offers and special packages to enhances your stay and create unforgettable memories.</p>
             </div>
+{/**
+  * AllRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
             {roomsDummyData.map((room)=>(
                 <div key={room._id} className='flex flex-col md:flex-row items-start py-10 gap-6 border-b border-gray-300 last:pb-30 last:border-0'>
                     <img onClick={()=>{navigate(`/rooms/${room._id}`); scrollTo(0,0)}} 
@@ -79,6 +100,13 @@ const AllRooms = () => {
                 </div>
             ))}
         </div>
+{/**
+  * AllRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
         {/* Filters */}
         <div className='bg-white w-80 border border-gray-300 text-gray-600 max-lg:mb-8 min-lg:mt-16'>
             <div className={`flex items-center justify-between px-5 py-2.5
@@ -111,10 +139,36 @@ const AllRooms = () => {
                         ))}
                     </div>
                 </div>
+{/**
+  * AllRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
 
         </div>
     </div>
   )
 }
 
+{/**
+  * AllRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
+
+
 export default AllRooms
+
+
+
+
+
+{/**
+  * AllRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}

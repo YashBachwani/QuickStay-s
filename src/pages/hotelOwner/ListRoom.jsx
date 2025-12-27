@@ -10,6 +10,13 @@ const ListRoom = () => {
     updatedRooms[index].isAvailable = !updatedRooms[index].isAvailable
     setRooms(updatedRooms)
   }
+  {/**
+  * ListRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
 
   return (
     <div className="px-4 py-6 max-w-6xl mx-auto">
@@ -26,6 +33,13 @@ const ListRoom = () => {
         <table className="w-full text-sm">
           <thead className="bg-gray-50 text-gray-800">
             <tr>
+                {/**
+  * ListRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
               <th className="py-3 px-4 text-left">Name</th>
               <th className="py-3 px-4 text-left hidden sm:table-cell">Facility</th>
               <th className="py-3 px-4 text-left">Price/night</th>
@@ -44,6 +58,13 @@ const ListRoom = () => {
                         .join(', ')
                     : item.amenities}
                 </td>
+                  {/**
+  * ListRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
                 <td className="py-3 px-4">₹{item.pricePerNight}</td>
                 <td className="py-3 px-4 text-center">
                   <label className="inline-flex items-center cursor-pointer">
@@ -65,6 +86,13 @@ const ListRoom = () => {
             ))}
           </tbody>
         </table>
+          {/**
+  * ListRooms.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
       </div>
     </div>
   )

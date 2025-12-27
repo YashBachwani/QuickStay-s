@@ -5,6 +5,14 @@ import ExclusiveOffers from '../components/ExclusiveOffers'
 import Testimonial from '../components/Testimonial'
 import NewsLetter from '../components/NewsLetter'
 
+{/**
+  * Home.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
+
 const Home = () => {
   return (
     <>
@@ -17,4 +25,20 @@ const Home = () => {
   )
 }
 
+{/**
+  * Home.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
+
 export default Home
+
+
+{/**
+  * Home.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}

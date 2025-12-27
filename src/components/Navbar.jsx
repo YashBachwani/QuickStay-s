@@ -20,6 +20,13 @@ const Navbar = () => {
         0a2 2 0 0 0 2 2h12M9 3v14m7 0v4" />
         </svg>
     )
+     /**
+     * Navbar Component
+     * Project: QuickStay
+     * Developed & Maintained by: Yash Bachwani
+     * © 2025 All rights reserved
+     */
+
 
     const [isScrolled, setIsScrolled] = React.useState(false);
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);

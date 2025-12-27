@@ -13,6 +13,12 @@ const AddRoom = () => {
       'Room Services': false,
       'Mountain View': false,
       'Pool Access': false,
+      /**
+          * AddRoom.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */
     }
   })
 
@@ -24,6 +30,13 @@ const AddRoom = () => {
         title="Add Room"
         subTitle="Fill in the details carefully to enhance the booking experience."
       />
+
+      {/**
+          * AddRoom.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */}
 
       {/* Image Upload */}
       <p className="text-gray-700 mt-10 font-medium">Images</p>
@@ -45,6 +58,12 @@ const AddRoom = () => {
           </label>
         ))}
       </div>
+      {/**
+          * AddRoom.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */}
 
       {/* Form Inputs */}
       <div className="flex flex-wrap gap-6 mt-6">
@@ -62,6 +81,13 @@ const AddRoom = () => {
             <option value="Family Suite">Family Suite</option>
           </select>
         </div>
+
+        {/**
+          * AddRoom.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */}
 
         <div className="flex flex-col">
           <label className="text-gray-700 font-medium">Price <span className="text-xs">/night</span></label>
@@ -106,6 +132,27 @@ const AddRoom = () => {
       </button>
     </form>
   )
+  {/**
+          * AddRoom.jsx
+          * Project: QuickStay
+          * Developed & Maintained by: Yash Bachwani
+          * © 2025 All rights reserved
+          */}
 }
 
 export default AddRoom
+
+
+
+
+
+
+
+
+
+{/**
+  * AddRoom.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}

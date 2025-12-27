@@ -17,6 +17,13 @@ const Testimonial = () => {
             key={testimonial.id}
             className='bg-white/70 backdrop-blur-lg p-6 rounded-2xl shadow-xl max-w-sm w-full transition-all hover:shadow-2xl hover:scale-[1.02] duration-300'
           >
+            {/**
+            * Testimonial Component
+            * Project: QuickStay
+            * Developed & Maintained by: Yash Bachwani
+            * © 2025 All rights reserved
+            */}
+
             <div className='flex items-center gap-4'>
               <img
                 className='w-14 h-14 rounded-full object-cover shadow-md'

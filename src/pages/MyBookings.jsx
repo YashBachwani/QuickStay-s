@@ -1,9 +1,36 @@
+{/**
+  * MyBookings.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
 import React, { useState } from 'react'
 import Title from '../components/Title'
 import { assets, userBookingsDummyData } from '../assets/assets'
 
+
+{/**
+  * MyBookings.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
+
+
+
 const MyBookings = () => {
     const [bookings, setBookings] = useState(userBookingsDummyData)
+
+{/**
+  * MyBookings.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
+
   return (
     <div className='py-28 md:pb-35 md:pt-32 px-4 md:px-16 lg:px-24 xl:px-32'>
         <Title title='My Bookings' subTitle='Easily manage your past, current, and upcoming hotel reservations in one place. Plan your trips seamlessly with just a few clicks' align='left'/>
@@ -13,6 +40,14 @@ const MyBookings = () => {
                 <div className='w-1/3'>Date & Timmings</div>
                 <div className='w-1/3'>Payments</div>
             </div>
+
+{/**
+  * MyBookings.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
             {bookings.map((booking)=>(
                 <div key={booking._id} className='grid grid-cols-1 md:grid-cols-[3fr_2fr_1fr] w-full border-b border-gray-300 py-6 first:border-t'>
                     {/* Hotel Details */}
@@ -40,6 +75,13 @@ const MyBookings = () => {
                             <p className='text-gray-500 text-sm'>
                                 {new Date(booking.checkInDate).toDateString()}
                             </p>
+{/**
+  * MyBookings.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
                         </div>
                         <div>
                             <p>Check-Out:</p>
@@ -51,7 +93,8 @@ const MyBookings = () => {
                     {/* Payment Details  */}
                     <div className='flex flex-col items-start justify-center pt-3'>
                         <div className='flex items-center gap-10'>
-                            <div className={`h-2 w-2 rounded-full ${booking.isPaid?"bg-green-500":"bg-red-500"}`}>
+                            <div className={`h-2 w-2 rounded-full ${booking.isPaid?"bg-green-500":"bg-red-500"}`}> {/**  * MyBookings.jsx   * Project: QuickStay   * Developed & Maintained by: Yash Bachwani * © 2025 All rights reserved */}
+
                             <p className={`mt-2 text-sm ${booking.isPaid ? "text-green-500" : "text-red-500"}`}>
                                 {booking.isPaid ? "Paid" : "Unpaid"}
                             </p>
@@ -59,7 +102,16 @@ const MyBookings = () => {
                             {!booking.isPaid && (
                                 <button className='px-4 py-1.5 mt-4 text-xs border border-gray-400 rounded-full hover:bg-gray-50 transition-all cursor-pointer'>
                                     Pay Now
-                                </button>
+
+{/**
+  * MyBookings.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
+
+                                </button> 
                             )}
                         </div>
                     </div>
@@ -71,3 +123,11 @@ const MyBookings = () => {
 }
 
 export default MyBookings
+
+
+{/**
+  * MyBookings.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}

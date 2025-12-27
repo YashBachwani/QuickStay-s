@@ -11,6 +11,14 @@ const Layout = () => {
       <Navbar toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
 
       <div className="flex flex-1 overflow-hidden">
+
+{/**
+  * Layout.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
         {/* Sidebar */}
         <div className={`fixed inset-y-0 left-0 z-50 transform md:relative md:translate-x-0 transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} w-64 bg-white shadow-md md:block`}>
           <Slidebar closeSidebar={() => setIsSidebarOpen(false)} />
@@ -31,6 +39,21 @@ const Layout = () => {
       </div>
     </div>
   )
+  {/**
+  * Layout.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}
+
 }
 
 export default Layout
+
+
+{/**
+  * Layout.jsx
+  * Project: QuickStay
+  * Developed & Maintained by: Yash Bachwani
+  * © 2025 All rights reserved
+*/}

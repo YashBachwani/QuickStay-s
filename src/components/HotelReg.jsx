@@ -11,6 +11,13 @@ const HotelReg = () => {
                     <p className='text-2xl font-semibold mt-6'>Register Your Hotel</p>
 
                     {/* For input fleids */}
+                    {/**
+                    * Hotel Registeration Component
+                    * Project: QuickStay
+                    * Developed & Maintained by: Yash Bachwani
+                    * © 2025 All rights reserved
+                    */}
+
                     {/* Hotel name */}
                     <div className='w-full mt-4'>
                         <label htmlFor="name" className='font-medium text-gray-500'>Hotel Name</label>

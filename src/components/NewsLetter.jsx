@@ -21,6 +21,13 @@ const NewsLetter = () => {
           <img
             src={assets.arrowIcon}
             alt="arrowIcon"
+            /**
+           * News Letter Component
+           * Project: QuickStay
+           * Developed & Maintained by: Yash Bachwani
+           * © 2025 All rights reserved
+           */
+
             className='w-4 invert group-hover:translate-x-1 transition-transform duration-300'
           />
         </button>

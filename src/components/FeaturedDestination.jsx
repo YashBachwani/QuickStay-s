@@ -32,4 +32,13 @@ const FeaturedDestination = () => {
   )
 }
 
+/**
+ * featured Destination Component
+ * Project: QuickStay
+ * Developed & Maintained by: Yash Bachwani
+ * © 2025 All rights reserved
+ */
+
+
+
 export default FeaturedDestination
